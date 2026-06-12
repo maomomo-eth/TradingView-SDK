@@ -1,0 +1,75 @@
+QUOTE_FIELDS = [
+    "name",
+    "description",
+    "close",
+    "bid",
+    "ask",
+    "change",
+    "change_abs",
+    "update_mode",
+]
+
+DETAIL_FIELDS = [
+    "price_52_week_high",
+    "price_52_week_low",
+    "sector",
+    "country",
+    "market",
+    "Low.1M",
+    "High.1M",
+    "Perf.W",
+    "Perf.1M",
+    "Perf.3M",
+    "Perf.6M",
+    "Perf.Y",
+    "Perf.YTD",
+    "Recommend.All",
+    "average_volume_10d_calc",
+    "average_volume_30d_calc",
+    "nav_discount_premium",
+    "open_interest",
+    "country_code_fund",
+    "iv",
+    "underlying_symbol",
+    "delta",
+    "gamma",
+    "rho",
+    "theta",
+    "vega",
+    "theoPrice",
+]
+
+PERFORMANCE_FIELDS = [
+    "change",
+    "Perf.5D",
+    "Perf.W",
+    "Perf.1M",
+    "Perf.6M",
+    "Perf.YTD",
+    "Perf.Y",
+    "Perf.5Y",
+    "Perf.10Y",
+    "Perf.All",
+]
+
+TECHNICAL_FIELDS = [
+    "Recommend.Other",
+    "Recommend.All",
+    "Recommend.MA",
+]
+
+RELATED_SYMBOL_COLUMNS = [
+    "name",
+    "type",
+    "typespecs",
+    "exchange",
+    "description",
+    "logo",
+    "country_code",
+    "maturity_date",
+    "yield_to_maturity",
+    "root",
+    "close",
+    "current_coupon",
+    "coupon_type_general",
+]
